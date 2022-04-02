@@ -1,0 +1,47 @@
+.detail{
+    width: 1000px;
+    height: 100%;
+    margin:0 auto;
+    padding: 30px;
+    background: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.cname{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+pre{
+    background: #000 !important;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.cont div:first-child{
+    width: 15%;
+}
+.cont div:first-child img{
+    width: 100%;
+}
+.detail_btn{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+.detail_btn div:first-child{
+    display: flex;
+    align-items: center;
+}
+.wtgyy{
+    width: 100%;
+    margin-bottom: 20px;
+}

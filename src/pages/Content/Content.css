@@ -1,0 +1,81 @@
+.content{
+    width: 100%;
+    background: #fff;
+    padding:0 16px;
+    margin-bottom: 16px;
+    border:1px solid #ccc;
+}
+.content:hover{
+    background: #f1eefc;
+}
+.cFirst{
+    width: 100%;
+    padding: 16px 0;
+    position: relative;
+}
+.cLast{
+    width: 100%;
+    padding: 6px 0;
+    border-top: 1px solid #ccc;
+    font-size: 12px;
+    color: #000;
+}
+.limg{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 16px;
+}
+.limg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.lcont{
+    width: 100%;
+    height: 100px;
+    padding-left: 116px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+}
+.lcont div:first-child{
+    width: 100%;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.lcont div:first-child p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow:hidden;
+}
+.lcont div:first-child p:last-child{
+
+    margin-bottom: 0;
+}
+.lcont div:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #ccc;
+}
+
+.pagination{
+    position: fixed;
+    bottom: 0;
+    width: 1000px;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+}

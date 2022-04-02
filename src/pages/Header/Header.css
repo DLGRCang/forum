@@ -1,0 +1,40 @@
+.head{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.header{
+    width: 1000px;
+    height: 80px;
+    background: #fff;
+    border-radius: 0 0 16px 16px;
+    padding:0 30px;
+    margin: 0 auto;
+}
+
+.hFirst{
+    padding-bottom: 12px;
+    font-size: 30px;
+    color:#fefefe;  
+    text-shadow:0px 1px 0px #c0c0c0,    
+	 0px 2px 0px #b0b0b0,    
+	 0px 3px 0px #a0a0a0,    
+	 0px 4px 0px #909090,    
+	 0px 5px 10px rgba(0, 0, 0, .9);
+}
+.hLast div:first-child{
+    padding-right: 9px;
+}
+.hLast div:last-child{
+    width: 60px;
+    height: 60px;
+    background: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.hLast div:last-child img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}

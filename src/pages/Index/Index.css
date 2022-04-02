@@ -1,0 +1,10 @@
+.index{
+    width: 1000px;
+    height: 100%;
+    overflow-x: hidden;
+    margin:  0 auto;
+    overflow-y: scroll;
+}
+.index::-webkit-scrollbar {
+    display: none;
+  }
